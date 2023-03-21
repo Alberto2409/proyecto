@@ -1,0 +1,68 @@
+<div class="menu">
+  <form [formGroup]="form" (ngSubmit)="guardarTarea()">
+    <mat-form-field class="ancho1" appearance="fill">
+      <mat-label><h4>+Nueva Tarea</h4></mat-label>
+      <input
+        matInput
+        autocomplete="off"
+        formControlName="nueva tarea"
+      /> </mat-form-field
+    ><br />
+    <mat-form-field class="ancho" appearance="fill">
+      <mat-label><h4>Titulo</h4></mat-label>
+      <input matInput autocomplete="off" formControlName="titulo" />
+    </mat-form-field>
+    <div class="btn">
+      <mat-checkbox class="">Tarea Completada</mat-checkbox>
+    </div>
+    <div class="tarea">
+      <button type="submit" class="tarea1">+Guardar Tarea</button>
+    </div>
+  </form>
+</div>
+
+<div class="container">
+  <input class="boton" type="" />
+</div>
+<br />
+
+<div class="table">
+  <div class="title"><h3>ID</h3>
+    <ol>
+      <li></li><br>
+      <li></li><br>
+      <li></li><br>
+      <li></li><br>
+      <li></li><br>
+      
+    </ol>
+  </div>
+  <div class="title"><h3>MisTareas</h3>
+    
+      <li>--------</li><br>
+      <li>--------</li><br>
+      <li>--------</li><br>
+      <li>---------</li><br>
+      <li>----------</li><br>
+     
+    
+  </div>
+  <div class="title"><h3>Completada</h3>
+    <ol>
+      <input type="checkbox"><br><br>
+      <input type="checkbox"><br><br>
+      <input type="checkbox"><br><br>
+      <input type="checkbox"><br><br>
+      <input type="checkbox"><br><br>
+      
+      
+    </ol>
+  </div>
+  <div class="title"><h3>Borrar</h3>
+    <input type="reset"><br><br>
+    <input type="reset"> <br><br>
+    <input type="reset"> <br><br>
+    <input type="reset"> <br><br>
+    <input type="reset"> <br><br>
+  </div>
+</div>
